@@ -1,0 +1,54 @@
+/* Paso 1 Arrancamos con un div con viewport height 50  */
+
+/* Paso 2: usamos ejemplo2.html */
+/* Tiene un Lorem ipsum basado en el font-size, aprendemos rem para font-size y padding */
+
+/* Paso 3: usamos ejemplo3.html */
+/* no se por qué quedó 12px en la noticia */
+/* Hay que incorporar estas definiciones aclarando rem vs. em */
+.titulo {
+  font-weight: bold;
+  /* cambiar a rem para mostrar la diferencia entre el elemento raíz y el padre */
+  /* podemos agrandar o achicar la noticia */
+  font-size: 2em;
+}
+
+.contenido {
+  /* está basado en la noticia */
+  font-size: 2em; /* en el final es 1.3em */ 
+  /* ojo que no es 0.5em del padre sino del elemento */
+  margin-top: 0.5em;
+}
+
+.otro {
+  font-size: 1.5rem;
+}
+
+/* el ejemplo estilos_relativos se banca bien los 3 requerimientos */
+
+/* ======================================================================= */
+/* primer requerimiento */
+/* agrandar un poquito todo */
+/* solo toco */
+html {
+  font-size: 10px;  
+}
+/* todos los contenedores principales usan rem, solo toco en un lugar */
+
+/* ======================================================================= */
+/* segundo requerimiento */
+/* agrandamos todo el video, como los hijos se basan en em */
+/* cambio solo video_contenedor */
+.video_contenedor {
+  font-size: 1.1rem;
+}
+
+/* ======================================================================= */
+/* tercer requerimiento */
+/* cambiar un tamaño específico */
+/* descripción de las tecnologías más chica */
+.material_elemento {
+  font-size: 0.9em;
+}
+
+

@@ -1,0 +1,15 @@
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.noticia {
+  height: 50vh;
+  border: 2px solid;
+  font-size: 15px;
+  padding: 5px;
+}
+

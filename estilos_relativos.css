@@ -1,0 +1,126 @@
+html {
+  font-size: 10px;  
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+.header {
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.titulo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.descripcion {
+  margin: 0.5em;
+}
+
+/* Material */
+.material_contenedor {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+}
+
+.material_elemento {
+  text-align: center;
+  font-size: 1.1em;
+  flex: 1 1 0px; /* Tres valores: flex-grow | flex-shrink | flex-basis */
+  margin: 1em;
+}
+
+.foto {
+  width: 8rem;
+  height: auto;
+}
+
+/* Separador */
+hr {
+  border-color: lightblue;
+  border-style: solid;
+  border-width: 1px;
+  margin: 2rem 0rem;
+}
+
+/* Video */
+.video_contenedor {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+}
+
+.video {
+  width: 80em;
+  height: 21em;
+}
+
+.video_texto {
+  font-size: 1em;
+  margin-left: 1em;
+  padding: 2em;
+}
+
+.video_principal {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+.video_explicacion {
+  font-size: 1.1em;
+}
+
+/* Testimonios */
+.foto_redonda {
+  border-radius: 50%;
+  width: 10rem;
+  height: auto;
+  border-style: double;
+  border-width: 5px;
+  border-color: lightblue;
+}
+
+.testimonio_contenedor {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.testimonio_elemento {
+  width: 100%;  
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2em;
+  align-items: center;
+}
+
+.comentario {
+  padding: 1em;
+  text-align: center;
+  background-color:whitesmoke;
+  border-color: lightblue;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0 2rem 0 1rem;
+  font-style: italic;
+  width: 100%;
+}
+
+.persona {
+  font-style: normal;
+  font-size: 0.8em;
+}
+

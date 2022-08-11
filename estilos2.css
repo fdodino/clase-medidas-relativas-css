@@ -1,0 +1,16 @@
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contenido {
+  height: 50vh;
+  background-color: lightgreen;
+  /* y si trabajamos con rem? */
+  font-size: 15px;
+  padding: 5px;
+}
+
